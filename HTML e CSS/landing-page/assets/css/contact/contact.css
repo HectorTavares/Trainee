@@ -1,0 +1,243 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    min-height: 100vh;
+    margin: 0;
+}
+
+img{
+    max-width: 100%;
+}
+
+.content{
+    flex-grow: 2;
+}
+
+.container{
+    margin: 0 auto;
+    width: 90%;
+    max-width: 1200px;
+}
+
+.banner{
+    position: relative;
+}
+
+.banner-img{
+    width: 100%;
+}
+
+.banner-content{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.banner-title{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 59px;
+    color: #FFFFFF;
+}
+.banner-paragraph{
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 25px;
+    color: #FFFFFF;
+}
+
+.form{
+    width: 100%;
+    height: 552px;
+    background: #FFFFFF;
+    
+}
+.form .container{
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.form-right{
+    background: linear-gradient(105.92deg, #515070 -8.44%, #6B69B0 94.86%);
+    box-shadow: 0px 4px 24px rgba(0, 0, 0, 0.11);
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 100%;
+    width: 440px;
+    flex-grow: 1;
+    padding: 40px;
+    margin-top: -5px;
+}
+.form-left{
+    height: 100%;
+    width: 720px;
+    flex-grow: 2;
+    display: flex;
+    flex-direction: column;
+}
+.contato{
+    display: flex;
+    align-items: center;
+    margin-top: 35px;
+}
+.contato-content{
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    height: 100%;
+}
+.contato-title{
+    margin:0px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 24px;
+    
+    color: #FFFFFF;   
+}
+.contato-paragraph{
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 20px;
+    color: #FFFFFF;
+    padding-left: 20px;
+}
+.form-camp{
+    flex-grow: 1;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.title{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 17px;
+    color: #898989;
+    margin-bottom: 23px;
+}
+.form-title{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 24px;
+    color: #FF8E6E;
+}
+input{
+    background: #FFFFFF;
+    border: none;
+    border-bottom: 1px solid #D7D7D7;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 19px;
+    color: #A9A9A9;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+}
+.radio{
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    width: 40%;
+}
+select{
+    background: #FFFFFF;
+    border: none;
+    border-bottom: 1px solid #D7D7D7;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 19px;
+    color: #A9A9A9;
+}
+
+.form4{
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+}
+.form5{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.button{
+    
+    background: #515070;
+    border-radius: 3px;
+    width: 165px;
+    height: 60px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 17px;
+    margin-left: 300px;
+    color: #FFFFFF;
+}
+.checkboc{
+    background: #FFFFFF;
+    border: 1px solid #D7D7D7;
+    box-sizing: border-box;
+    width: 16px;
+    height: 16px;
+}
+.msg{
+    width: 100%;
+    height: 100%;
+}
+.termos{
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 19px;
+    color: #898989;
+    width: 70%;
+}
+.assunto{
+    border-bottom: 1px solid #D7D7D7;
+    justify-content: center;
+}
+.card-radio{
+    display: flex;
+    align-items:baseline;
+}
+.title-radio{
+    margin: 14px;
+    margin-top: 0px;
+   
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 19px;
+    color: #A9A9A9;
+}
+.input-radio{
+    margin-bottom: 14px;
+
+}

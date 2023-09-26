@@ -1,0 +1,412 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    min-height: 100vh;
+}
+div{
+    margin: 0;
+}
+img{
+    max-width: 100%;
+}
+.container{
+    margin: 0 auto;
+    width: 90%;
+    max-width: 1200px;
+}
+.content{
+    flex-grow: 2;
+}
+
+/*First Banner*/
+
+.first-banner{
+    position: relative;
+}
+.banner-img{
+    width: 100%;
+}
+
+.banner-content{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.banner-title{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 59px;
+    color: #FFFFFF;
+}
+.banner-paragraph{
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 25px;
+
+    color: #FFFFFF;
+}
+.banner-buttor{
+    width: 165px;
+    height: 60px;
+    background: #FF8E6E;
+    border-radius: 3px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 17px;
+    color: #FFFFFF;
+}
+
+/*First Banner*/
+
+/*Second Banner*/
+
+.second-banner .container{
+    display:flex;
+    height: 100%;
+}
+
+.second-banner{
+    display: flex;
+    height: 688px;
+    background-color: white;
+    align-items: center;
+    justify-content: space-between;
+}
+.second-banner-text-1{
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 25px;
+    color: #515070;
+}
+.second-banner-title{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 59px;
+    color: #FF8E6E;
+}
+.second-banner-paragraph{
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 29px;
+    color: #898989;
+}
+.second-banner-content-left button{
+    background: #515070;
+    border-radius: 3px;
+    width: 165px;
+    height: 60px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 17px;
+    color: #FFFFFF;
+
+}
+.second-banner-content-right{
+    display: flex;
+   flex-direction: column-reverse;
+   align-items: center;
+   flex-grow: 1;
+   justify-content: center;
+   
+}
+.second-banner-content-left{
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    flex-grow: 1;
+}
+/*Second Banner*/
+/*Third Banner*/
+.third-banner{
+    position: relative;
+}
+
+.third-banner-content{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+   
+}
+.third-banner-text{
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 25px;
+    color: #FFFFFF;
+}
+.third-banner-title{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 59px;
+    color: #FFFFFF;
+}
+
+.third-banner-paragraph{
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 29px;
+    color: #FFFFFF;
+}
+
+/*Third Banner*/
+
+/*Fourth Banner*/
+.fourth-banner{
+    width: 100%;
+    height: 688px;
+    background: #F6F6F6;
+}
+.fourth-banner .container{
+    display:flex;
+    height: 100%;
+    flex-direction: column;
+}
+.fourth-banner-text{
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 25px;
+    color: #515070;
+}
+.fourth-banner-tilte{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 59px;
+    color: #FF8E6E;
+}
+.fourth-banner-content-top{
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    height: 50%;
+    justify-content: flex-end;
+}
+.fourth-banner-content-bottom{
+    display: flex;
+    flex-grow: 1;
+    height: 50%;
+    justify-content: space-between;
+}
+.card{
+    display: flex;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 34px rgba(8, 53, 120, 0.05);
+    border-radius: 3px;
+    align-items: flex-start;
+    flex-direction: column;
+    padding: 20px;
+    Width: 580px;
+    Height:217px;
+
+}
+.card-top{
+    display: flex;
+    align-items: center;
+}
+.card-name-date{
+    display: flex;
+    flex-direction: column;
+}
+.card-name{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 22px;
+    color: #515070;
+    margin: 0px;
+}
+.card-date{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 15px;
+    color: #FF8E6E;
+    margin-top: 3px;
+    
+}
+.card-discription{
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 29px;
+    color: #898989;
+    Width : 496px;
+    Height : 88px;
+    margin-top: 0px;
+}
+.card-picture{
+    margin-right: 20px;
+    margin-bottom: 10px;
+}
+
+/*Fourth Banner*/
+
+/* Fifth Banner*/
+.fifth-banner{
+    Height:688px;
+    width: 100%;
+    background: linear-gradient(105.92deg, #515070 -8.44%, #6B69B0 94.86%);
+}
+.fifth-banner .container{
+    display:flex;
+    height: 100%;
+}
+.fifth-banner-side{
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.fifth-banner-mid{
+    display: flex;
+    flex-grow: 1;
+     align-items: center;
+    flex-direction: column;
+    position:relative;
+}
+.fifth-banner-mid-title{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 59px;
+    color: #FF8E6E;
+}
+.fifht-banner-phone-img{
+    position: absolute;
+    bottom: 0;
+}
+.fifth-banner-card-title{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 22px;
+    color: #FFFFFF;
+}
+.fifht-banner-card-paragraph{
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 22px;
+    color: #FFFFFF;
+}
+.fith-banner-card-title-paragraph{
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+}
+.fifth-banner-card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+}
+/**/
+/**/
+
+.sixth-banner{
+    display: flex;
+    height: 688px;
+    width: 100%;
+    background: #F6F6F6;
+    align-items: center;
+    justify-content: space-between;
+}
+.sixth-banner .container{
+    height: 100%;
+    display:flex;
+}
+
+.sixth-banner-text-1{
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 25px;
+    color: #515070;
+}
+.sixth-banner-title{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 59px;
+    color: #FF8E6E;
+    margin-top: 10px;
+    margin-bottom: 40px;
+}
+.sixth-banner-paragraph{
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 29px;
+    color: #898989;
+}
+
+.sixth-banner-content-left{
+    display: flex;
+   flex-direction: column-reverse;
+   align-items: center;
+   flex-grow: 1;
+   justify-content: center;
+  
+} 
+.sixth-banner-content-right{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.sixth-banner-button{
+   
+    background: #515070;
+    border-radius: 3px;
+    width: 165px;
+    height: 60px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 17px;
+    color: #FFFFFF;
+}
+

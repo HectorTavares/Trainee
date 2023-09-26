@@ -1,0 +1,178 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    min-height: 100vh;
+    margin: 0;
+}
+
+img{
+    max-width: 100%;
+}
+
+.container{
+    margin: 0 auto;
+    width: 90%;
+    max-width: 1200px;
+}
+
+.first-banner{
+    position:relative;
+    width: 100%;
+}
+
+.first-banner-img{
+    width: 100%;
+}
+.first-banner-content{
+    
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    
+}
+
+.first-banner-title{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 59px;
+    color: #FFFFFF;
+}
+.first-banner-paragraph{
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 25px;
+    color: #FFFFFF;
+}
+
+/**/
+/**/
+
+.second-banner{
+    background-color: #FFFFFF;
+    width: 100%;
+    height: 490px;
+}
+.second-banner-title{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 59px;
+    color: #515070;
+    margin-bottom: 0px;
+    margin-top: 24px;
+
+}
+.second-banner-paragraph{
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 25px;
+    color: #515070;
+    margin-top: 5px;
+}
+.second-banner .container{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: space-around;
+}
+.second-banner-bottom{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 60px;
+}
+
+.div-overlay{
+    position:relative;
+}
+.overlay{
+    display: flex;
+    position:absolute;
+    top: 0;
+    left: 0;
+    background: #515070;
+    opacity: 0.7;
+    width: 100%;
+    height: 98%;
+    flex-direction: column-reverse;
+}
+.overlay h1{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 22px;
+    color: #FFFFFF;
+    margin-left: 10px;
+}
+.overlay p{
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 22px;
+    color: #FFFFFF;
+    margin-left: 10px;
+    margin-right: 9px;
+}
+/**/
+
+.third-banner{
+    background: #F6F6F6;
+    Height: 425px;
+    width: 100%;
+}
+
+.third-banner .container{
+    height: 100%;
+}
+.third-banner-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+}
+.third-banner-content-card{
+    display: flex;
+    flex-direction: column;
+}
+.third-banner-content-card div{
+    display: flex;
+}
+.third-banner-text{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 42px;
+    line-height: 51px;
+    color: #515070;
+    margin: 0px;
+}
+.third-banner-paragraph{
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 29px;
+    color: #898989;
+}
+.third-banner-img{
+    margin-right: 25px;
+}
+
+
+
+
+
