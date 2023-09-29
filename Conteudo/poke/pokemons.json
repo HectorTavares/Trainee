@@ -1,0 +1,768 @@
+[
+  {
+    "id": 1,
+    "name": "Bulbasaur",
+    "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/001.png",
+    "abilities": [
+      {
+        "name": "Razor Leaf",
+        "damage": 15
+      },
+      {
+        "name": "Vine Whip",
+        "damage": 30
+      }
+    ],
+    "sprites": {
+      "front": "https://img.pokemondb.net/sprites/emerald/normal/bulbasaur.png",
+      "back": "https://img.pokemondb.net/sprites/emerald/back-normal/bulbasaur.png"
+    }
+  },
+  {
+    "id": 2,
+    "name": "Ivysaur",
+    "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/002.png",
+    "abilities": [
+      {
+        "name": "Razor Leaf",
+        "damage": 25
+      },
+      {
+        "name": "Toxic Whip",
+        "damage": 40
+      }
+    ],
+    "sprites": {
+      "front": "https://img.pokemondb.net/sprites/emerald/normal/ivysaur.png",
+      "back": "https://img.pokemondb.net/sprites/emerald/back-normal/ivysaur.png"
+    }
+  },
+  {
+    "id": 3,
+    "name": "Venusaur",
+    "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/003.png",
+    "abilities": [
+      {
+        "name": "Solar Typhon",
+        "damage": 55
+      }
+    ],
+    "sprites": {
+      "front": "https://img.pokemondb.net/sprites/emerald/normal/venusaur.png",
+      "back": "https://img.pokemondb.net/sprites/emerald/back-normal/venusaur.png"
+    }
+  },
+  {
+    "id": 4,
+    "name": "Charmander",
+    "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/004.png",
+    "abilities": [
+      {
+        "name": "Fire Fang",
+        "damage": 10
+      },
+      {
+        "name": "Flare",
+        "damage": 15
+      }
+    ],
+    "sprites": {
+      "front": "https://img.pokemondb.net/sprites/emerald/normal/charmander.png",
+      "back": "https://img.pokemondb.net/sprites/emerald/back-normal/charmander.png"
+    }
+  },
+  {
+    "id": 5,
+    "name": "Charmeleon",
+    "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/005.png",
+    "abilities": [
+      {
+        "name": "Slash",
+        "damage": 20
+      },
+      {
+        "name": "Raging Flames",
+        "damage": 35
+      }
+    ],
+    "sprites": {
+      "front": "https://img.pokemondb.net/sprites/emerald/normal/charmeleon.png",
+      "back": "https://img.pokemondb.net/sprites/emerald/back-normal/charmeleon.png"
+    }
+  },
+  {
+    "id": 6,
+    "name": "Charizard",
+    "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/006.png",
+    "abilities": [
+      {
+        "name": "Royal Blaze",
+        "damage": 60
+      }
+    ],
+    "sprites": {
+      "front": "https://img.pokemondb.net/sprites/emerald/normal/charizard.png",
+      "back": "https://img.pokemondb.net/sprites/emerald/back-normal/charizard.png"
+    }
+  },
+  {
+    "id": 7,
+    "name": "Squirtle",
+    "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/007.png",
+    "abilities": [
+      {
+        "name": "Tackle",
+        "damage": 5
+      },
+      {
+        "name": "Water Gun",
+        "damage": 15
+      }
+    ],
+    "sprites": {
+      "front": "https://img.pokemondb.net/sprites/emerald/normal/squirtle.png",
+      "back": "https://img.pokemondb.net/sprites/emerald/back-normal/squirtle.png"
+    }
+  },
+  {
+    "id": 8,
+    "name": "Wartortle",
+    "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/008.png",
+    "abilities": [
+      {
+        "name": "Aqua Slash",
+        "damage": 25
+      },
+      {
+        "name": "Waterfall",
+        "damage": 30
+      }
+    ],
+    "sprites": {
+      "front": "https://img.pokemondb.net/sprites/emerald/normal/wartortle.png",
+      "back": "https://img.pokemondb.net/sprites/emerald/back-normal/wartortle.png"
+    }
+  },
+  {
+    "id": 9,
+    "name": "Blastoise",
+    "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/009.png",
+    "abilities": [
+      {
+        "name": "Rocket Splash",
+        "damage": 40
+      },
+      {
+        "name": "Splash Bomb",
+        "damage": 55
+      }
+    ],
+    "sprites": {
+      "front": "https://img.pokemondb.net/sprites/emerald/normal/blastoise.png",
+      "back": "https://img.pokemondb.net/sprites/emerald/back-normal/blastoise.png"
+    }
+  },
+  {
+    "id": 25,
+    "abilities": [
+      {
+        "name": "Thunderbolt",
+        "damage": 20
+      }
+    ],
+    "weakness": [
+      "Ground"
+    ],
+    "name": "Pikachu",
+    "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/025.png",
+    "type": [
+      "electric"
+    ],
+    "sprites": {
+      "front": "https://img.pokemondb.net/sprites/emerald/normal/pikachu.png",
+      "back": "https://img.pokemondb.net/sprites/emerald/back-normal/pikachu.png"
+    }
+  },
+  {
+    "id": 26,
+    "abilities": [
+      {
+        "name": "Thunderbolt",
+        "damage": 30
+      },
+      {
+        "name": "Spark Ball",
+        "damage": 35
+      }
+    ],
+    "weakness": [
+      "Ghost",
+      "Dark",
+      "Bug",
+      "Ground"
+    ],
+    "name": "Raichu",
+    "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/026.png",
+    "type": [
+      "electric",
+      "psychic"
+    ],
+    "sprites": {
+      "front": "https://img.pokemondb.net/sprites/emerald/normal/raichu.png",
+      "back": "https://img.pokemondb.net/sprites/emerald/back-normal/raichu.png"
+    }
+  },
+  {
+    "id": 37,
+    "name": "Vulpix",
+    "abilities": [
+      {
+        "name": "Flare",
+        "damage": 15
+      }      
+    ],
+    "weakness": [
+      "Water",
+      "Ground",
+      "Rock"
+    ],
+    "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/037.png",
+    "type": [
+      "fire"
+    ],
+    "sprites": {
+      "front": "https://img.pokemondb.net/sprites/emerald/normal/vulpix.png",
+      "back": "https://img.pokemondb.net/sprites/emerald/back-normal/vulpix.png"
+    }
+  },
+  {
+    "id": 38,
+    "name": "Ninetales",
+    "abilities": [
+      {
+        "name": "Fire Mane",
+        "damage": 30
+      },
+      {
+        "name": "Flamethrower",
+        "damage": 40
+      }
+    ],
+    "weakness": [
+      "Fire",
+      "Steel",
+      "Poison",
+      "Rock"
+    ],
+    "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/038.png",
+    "type": [
+      "ice",
+      "fairy"
+    ],
+    "sprites": {
+      "front": "https://img.pokemondb.net/sprites/emerald/normal/ninetales.png",
+      "back": "https://img.pokemondb.net/sprites/emerald/back-normal/ninetales.png"
+    }
+  },
+  {
+    "id": 39,
+    "name": "Jigglypuff",
+    "abilities": [
+      {
+        "name": "Singin Voice",
+        "damage": 10
+      },
+      {
+        "name": "Moon Kick",
+        "damage": 15
+      }
+    ],
+    "weakness": [
+      "Steel",
+      "Poison"
+    ],
+    "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/039.png",
+    "type": [
+      "normal",
+      "fairy"
+    ],
+    "sprites": {
+      "front": "https://img.pokemondb.net/sprites/emerald/normal/jigglypuff.png",
+      "back": "https://img.pokemondb.net/sprites/emerald/back-normal/jigglypuff.png"
+    }
+  },
+  {
+    "id": 40,
+    "name": "Wigglytuff",
+    "abilities": [
+      {
+        "name": "Sweet Kiss",
+        "damage": 20
+      },
+      {
+        "name": "Echoed Voice",
+        "damage": 30
+      }
+    ],
+    "weakness": [
+      "Steel",
+      "Poison"
+    ],
+    "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/039.png",
+    "type": [
+      "normal",
+      "fairy"
+    ],
+    "sprites": {
+      "front": "https://img.pokemondb.net/sprites/emerald/normal/wigglytuff.png",
+      "back": "https://img.pokemondb.net/sprites/emerald/back-normal/wigglytuff.png"
+    }
+  },
+  {
+    "abilities": [
+      {
+        "name": "Mud-Slap",
+        "damage": 10
+      },
+      {
+        "name": "Dig",
+        "damage": 20
+      }
+    ],
+    "weakness": [
+      "Fire",
+      "Water",
+      "Fighting",
+      "Ground"
+    ],
+    "name": "Diglett",
+    "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/050.png",
+    "id": 50,
+    "type": [
+      "ground",
+      "steel"
+    ],
+    "sprites": {
+      "front": "https://img.pokemondb.net/sprites/emerald/normal/diglett.png",
+      "back": "https://img.pokemondb.net/sprites/emerald/back-normal/diglett.png"
+    }
+  },
+  {
+    "id": 54,
+    "name": "Psyduck",
+    "abilities": [
+      {
+        "name": "Confusion",
+        "damage": 15
+      },
+      {
+        "name": "Zen Headbutt",
+        "damage": 23
+      }
+    ],
+    "weakness": [
+      "Grass",
+      "Electric"
+    ],
+    "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/054.png",
+    "type": [
+      "water"
+    ],
+    "sprites": {
+      "front": "https://img.pokemondb.net/sprites/emerald/normal/psyduck.png",
+      "back": "https://img.pokemondb.net/sprites/emerald/back-normal/psyduck.png"
+    }
+  },
+  {
+    "id": 59,
+    "name": "Arcanine",
+    "abilities": [
+      {
+        "name": "Flamethrower",
+        "damage": 50
+      }
+    ],
+    "weakness": [
+      "Water",
+      "Ground",
+      "Rock"
+    ],
+    "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/059.png",
+    "type": [
+      "fire"
+    ],
+    "sprites": {
+      "front": "https://img.pokemondb.net/sprites/emerald/normal/arcanine.png",
+      "back": "https://img.pokemondb.net/sprites/emerald/back-normal/arcanine.png"
+    }
+  },
+  {
+    "abilities": [
+      {
+        "name": "Confusion",
+        "damage": 40
+      },
+      {
+        "name": "Psychic",
+        "damage": 45
+      }
+    ],
+    "weakness": [
+      "Ghost",
+      "Dark",
+      "Bug"
+    ],
+    "name": "Alakazam",
+    "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/065.png",
+    "id": 65,
+    "type": [
+      "psychic"
+    ],
+    "sprites": {
+      "front": "https://img.pokemondb.net/sprites/emerald/normal/alakazam.png",
+      "back": "https://img.pokemondb.net/sprites/emerald/back-normal/alakazam.png"
+    }
+  },
+  {
+    "abilities": [
+      {
+        "name": "Knock Off",
+        "damage": 12
+      },
+      {
+        "name": "Dynamic Punch",
+        "damage": 18
+      }
+    ],
+    "weakness": [
+      "Psychic",
+      "Flying",
+      "Fairy"
+    ],
+    "name": "Machop",
+    "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/066.png",
+    "id": 66,
+    "type": [
+      "fighting"
+    ],
+    "sprites": {
+      "front": "https://img.pokemondb.net/sprites/emerald/normal/machop.png",
+      "back": "https://img.pokemondb.net/sprites/emerald/back-normal/machop.png"
+    }
+  },
+  {
+    "abilities": [
+      {
+        "name": "Knock Off",
+        "damage": 25
+      },
+      {
+        "name": "Double-Edge",
+        "damage": 35
+      }
+    ],
+    "weakness": [
+      "Psychic",
+      "Flying",
+      "Fairy"
+    ],
+    "name": "Machoke",
+    "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/067.png",
+    "id": 67,
+    "type": [
+      "fighting"
+    ],
+    "sprites": {
+      "front": "https://img.pokemondb.net/sprites/emerald/normal/machoke.png",
+      "back": "https://img.pokemondb.net/sprites/emerald/back-normal/machoke.png"
+    }
+  },
+  {
+    "abilities": [
+      {
+        "name": "Double-Edge",
+        "damage": 50
+      }
+    ],
+    "weakness": [
+      "Psychic",
+      "Flying",
+      "Fairy"
+    ],
+    "name": "Machamp",
+    "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/068.png",
+    "id": 68,
+    "type": [
+      "fighting"
+    ],
+    "sprites": {
+      "front": "https://img.pokemondb.net/sprites/emerald/normal/machamp.png",
+      "back": "https://img.pokemondb.net/sprites/emerald/back-normal/machamp.png"
+    }
+  },
+  {
+    "abilities": [
+      {
+        "name": "Fire Spin",
+        "damage": 28
+      },
+      {
+        "name": "Fire Blast",
+        "damage": 33
+      }
+    ],
+    "weakness": [
+      "Water",
+      "Ground",
+      "Rock"
+    ],
+    "name": "Rapidash",
+    "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/078.png",
+    "id": 78,
+    "type": [
+      "fire"
+    ],
+    "sprites": {
+      "front": "https://img.pokemondb.net/sprites/emerald/normal/rapidash.png",
+      "back": "https://img.pokemondb.net/sprites/emerald/back-normal/rapidash.png"
+    }
+  },
+  {
+    "abilities": [
+      {
+        "name": "Shadow Ball",
+        "damage": 30
+      },
+      {
+        "name": "Shadow Claw",
+        "damage": 38
+      }
+    ],
+    "weakness": [
+      "Ghost",
+      "Dark",
+      "Psychic",
+      "Ground"
+    ],
+    "name": "Gengar",
+    "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/094.png",
+    "id": 94,
+    "type": [
+      "ghost",
+      "poison"
+    ],
+    "sprites": {
+      "front": "https://img.pokemondb.net/sprites/emerald/normal/gengar.png",
+      "back": "https://img.pokemondb.net/sprites/emerald/back-normal/gengar.png"
+    }
+  },
+  {
+    "abilities": [
+      {
+        "name": "Heavy Slam",
+        "damage": 35
+      },
+      {
+        "name": "Stone Edge",
+        "damage": 44
+      }
+    ],
+    "weakness": [
+      "Steel",
+      "Fighting",
+      "Water",
+      "Ice",
+      "Grass",
+      "Ground"
+    ],
+    "name": "Onix",
+    "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/095.png",
+    "id": 95,
+    "type": [
+      "rock",
+      "ground"
+    ],
+    "sprites": {
+      "front": "https://img.pokemondb.net/sprites/emerald/normal/onix.png",
+      "back": "https://img.pokemondb.net/sprites/emerald/back-normal/onix.png"
+    }
+  },
+  {
+    "id": 129,
+    "name": "Magikarp",
+    "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/129.png",
+    "abilities": [
+      {
+        "name": "Splash",
+        "damage": 1
+      }
+    ],
+    "sprites": {
+      "front": "https://img.pokemondb.net/sprites/emerald/normal/magikarp.png",
+      "back": "https://img.pokemondb.net/sprites/emerald/back-normal/magikarp.png"
+    }
+  },
+  {
+    "abilities": [
+      {
+        "name": "Hyper Beam",
+        "damage": 55
+      },
+      {
+        "name": "Dragon Dance",
+        "damage": 65
+      }
+    ],
+    "weakness": [
+      "Electric",
+      "Rock"
+    ],
+    "name": "Gyarados",
+    "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/130.png",
+    "id": 130,
+    "type": [
+      "water",
+      "flying"
+    ],
+    "sprites": {
+      "front": "https://img.pokemondb.net/sprites/emerald/normal/gyarados.png",
+      "back": "https://img.pokemondb.net/sprites/emerald/back-normal/gyarados.png"
+    }
+  },
+  {
+    "abilities": [
+      {
+        "name": "Rest",
+        "damage": 0
+      },
+      {
+        "name": "Body Slam",
+        "damage": 22
+      }
+    ],
+    "weakness": [
+      "Fighting"
+    ],
+    "name": "Snorlax",
+    "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/143.png",
+    "id": 143,
+    "type": [
+      "normal"
+    ],
+    "sprites": {
+      "front": "https://img.pokemondb.net/sprites/emerald/normal/snorlax.png",
+      "back": "https://img.pokemondb.net/sprites/emerald/back-normal/snorlax.png"
+    }
+  },
+  {
+    "abilities": [
+      {
+        "name": "Blizzard",
+        "damage": 66
+      },
+      {
+        "name": "Ice Beam",
+        "damage": 70
+      }
+    ],
+    "weakness": [
+      "Steel",
+      "Fire",
+      "Electric",
+      "Rock"
+    ],
+    "name": "Articuno",
+    "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/144.png",
+    "id": 144,
+    "type": [
+      "ice",
+      "flying"
+    ],
+    "sprites": {
+      "front": "https://img.pokemondb.net/sprites/emerald/normal/articuno.png",
+      "back": "https://img.pokemondb.net/sprites/emerald/back-normal/articuno.png"
+    }
+  },
+  {
+    "abilities": [
+      {
+        "name": "Thunderbolt",
+        "damage": 55
+      },
+      {
+        "name": "Thunder",
+        "damage": 77
+      }
+    ],
+    "weakness": [
+      "Ice",
+      "Rock"
+    ],
+    "name": "Zapdos",
+    "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/145.png",
+    "id": 145,
+    "type": [
+      "electric",
+      "flying"
+    ],
+    "sprites": {
+      "front": "https://img.pokemondb.net/sprites/emerald/normal/zapdos.png",
+      "back": "https://img.pokemondb.net/sprites/emerald/back-normal/zapdos.png"
+    }
+  },
+  {
+    "abilities": [
+      {
+        "name": "Flamethrower",
+        "damage": 60
+      },
+      {
+        "name": "Burn Up",
+        "damage": 75
+      }
+    ],
+    "weakness": [
+      "Water",
+      "Electric",
+      "Rock"
+    ],
+    "name": "Moltres",
+    "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/146.png",
+    "id": 146,
+    "type": [
+      "fire",
+      "flying"
+    ],
+    "sprites": {
+      "front": "https://img.pokemondb.net/sprites/emerald/normal/moltres.png",
+      "back": "https://img.pokemondb.net/sprites/emerald/back-normal/moltres.png"
+    }
+  },
+  {
+    "abilities": [
+      {
+        "name": "Psystrike",
+        "damage": 99
+      },
+      {
+        "name": "Psycho Cut",
+        "damage": 99
+      }
+    ],
+    "weakness": [
+      "Ghost",
+      "Dark",
+      "Bug"
+    ],
+    "name": "Mewtwo",
+    "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/150.png",
+    "id": 150,
+    "type": [
+      "psychic"
+    ],
+    "sprites": {
+      "front": "https://img.pokemondb.net/sprites/emerald/normal/mewtwo.png",
+      "back": "https://img.pokemondb.net/sprites/emerald/back-normal/mewtwo.png"
+    }
+  }
+]

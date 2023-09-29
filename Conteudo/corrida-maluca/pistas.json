@@ -1,0 +1,74 @@
+[
+  {
+    "id": 1,
+    "nome": "Himalaia", 
+    "tipo": "MONTANHA",
+    "descricao": "Uma montanha nevada, os corredores devem dar uma volta inteira nela, como existe muita neve eles terão dificuldade em enxergar",
+    "tamanho": 30,
+    "debuff": -2,
+    "posicoesBuffs": [6, 17]
+  },
+  {
+    "id": 2,
+    "nome": "F1", 
+    "tipo": "CIRCUITO",
+    "descricao": "Um circuito de corrida feito para os carros mais rápidos, possui curvas muitos fechadas",
+    "tamanho": 20,
+    "debuff": -1,
+    "posicoesBuffs": [3, 12]
+  },
+  {
+    "id": 3,
+    "nome": "Deserto do Saara", 
+    "tipo": "DESERTO",
+    "descricao": "Uma deserto imenso, os corredores vão derrapar muito na areia",
+    "tamanho": 50,
+    "debuff": -2,
+    "posicoesBuffs": [12, 26, 38]
+  },
+  {
+    "id": 4,
+    "nome": "Nova York", 
+    "tipo": "CIDADE",
+    "descricao": "Uma cidade muito populosa, cuidado com os pedestres",
+    "tamanho": 30,
+    "debuff": -2,
+    "posicoesBuffs": [5, 18]
+  },
+  {
+    "id": 5,
+    "nome": "Amazonia", 
+    "tipo": "FLORESTA",
+    "descricao": "Uma floresta cheia de vida e obstáculos, tomem cuidado para não se perder",
+    "tamanho": 30,
+    "debuff": -1,
+    "posicoesBuffs": [7, 18]
+  },
+  {
+    "id": 6,
+    "nome": "Montanha Nevada", 
+    "tipo": "MONTANHA",
+    "descricao": "Uma montanha nevada, os corredores devem dar uma volta inteira nela, como existe muita neve eles terão dificuldade em enxergar",
+    "tamanho": 30,
+    "debuff": -1,
+    "posicoesBuffs": [8, 21]
+  },
+  {
+    "id": 7,
+    "nome": "Rainbow Road", 
+    "tipo": "CIRCUITO",
+    "descricao": "Colorido e mágico, um pista de arco-íris com boosts por toda parte!",
+    "tamanho": 33,
+    "debuff": -1,
+    "posicoesBuffs": [4, 12, 20, 25]
+  },
+  {
+    "id": 8,
+    "nome": "Submundo", 
+    "tipo": "TREVAS",
+    "descricao": "Um local trevoso e quente, de onde nenhum corredor jamais retornou",
+    "tamanho": 36,
+    "debuff": -3,
+    "posicoesBuffs": [6, 16, 26]
+  }
+]

@@ -1,0 +1,90 @@
+[
+  {
+    "id": 1,
+    "nome": "Dick Vigarista",
+    "velocidade": 5,
+    "drift": 2, 
+    "aceleracao": 4,
+    "vantagem": "CIRCUITO"
+  },
+  {
+    "id": 2,
+    "nome": "Irmãos Rocha",
+    "velocidade": 5,
+    "drift": 2, 
+    "aceleracao": 3,
+    "vantagem": "MONTANHA"
+  },
+  {
+    "id": 3,
+    "nome": "Irmãos Pavor",
+    "velocidade": 4,
+    "drift": 2, 
+    "aceleracao": 3,
+    "vantagem": "DESERTO"
+  },
+  {
+    "id": 4,
+    "nome": "Professor Aéreo",
+    "velocidade": 6,
+    "drift": 2, 
+    "aceleracao": 1,
+    "vantagem": "DESERTO"
+  },
+  {
+    "id": 5,
+    "nome": "Barão Vermelho",
+    "velocidade": 5,
+    "drift": 1, 
+    "aceleracao": 2,
+    "vantagem": "MONTANHA"
+  },
+  {
+    "id": 6,
+    "nome": "Penélope Charmosa",
+    "velocidade": 4,
+    "drift": 3, 
+    "aceleracao": 5,
+    "vantagem": "CIDADE"
+  },
+  {
+    "id": 7,
+    "nome": "Sargento Bombarda",
+    "velocidade": 4,
+    "drift": 4, 
+    "aceleracao": 1,
+    "vantagem": "CIDADE"
+  },
+  {
+    "id": 8,
+    "nome": "Quadrilha da Morte",
+    "velocidade": 6,
+    "drift": 3, 
+    "aceleracao": 3,
+    "vantagem": "CIDADE"
+  },
+  {
+    "id": 9,
+    "nome": "Tio Tomás",
+    "velocidade": 4,
+    "drift": 2, 
+    "aceleracao": 6,
+    "vantagem": "FLORESTA"
+  },
+  {
+    "id": 10,
+    "nome": "Peter Perfeito",
+    "velocidade": 7,
+    "drift": 1, 
+    "aceleracao": 2,
+    "vantagem": "CIRCUITO"
+  },
+  {
+    "id": 11,
+    "nome": "Rufus Lenhador",
+    "velocidade": 5,
+    "drift": 2, 
+    "aceleracao": 3,
+    "vantagem": "FLORESTA"
+  }
+]

@@ -1,0 +1,17 @@
+[
+  {
+    "id": 1,
+    "name": "Bulbasaur",
+    "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/001.png"
+  },
+  {
+    "id": 4,
+    "name": "Charmander",
+    "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/004.png"
+  },
+  {
+    "id": 7,
+    "name": "Squirtle",
+    "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/007.png"
+  }
+]
