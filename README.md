@@ -9,3 +9,5 @@ Dividido entre as Técnologias que estava estudando no momento do desenvolviment
 - React
 - Spring
 
+
+Tem a pasta de conteudos onde fica alguns jsons com conteudos que são consumidos em alguns dos projetos.
