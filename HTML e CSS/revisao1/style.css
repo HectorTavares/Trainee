@@ -1,0 +1,43 @@
+html,body{
+    padding: 0;
+    margin: 0;
+}
+header{
+    text-align: center;
+    background-color: #333333;
+   
+}
+
+footer{
+    text-align: center;
+}
+
+h1{
+    padding: 0px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 42px;
+    color: #FFFFFF;
+    margin: 0;
+}
+main{
+    padding: 20px;
+}
+.titulo-css-externo{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 42px;
+    color: #8F0000;
+}
+.paragrafo-css-externo{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 28px;
+    color: #8F0000;
+}
