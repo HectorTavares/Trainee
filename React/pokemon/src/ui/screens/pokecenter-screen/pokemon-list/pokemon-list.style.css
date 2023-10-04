@@ -1,0 +1,21 @@
+.pokelist {
+  display: flex;
+  flex-direction: column;
+}
+.pokelist__pokemons {
+  flex-wrap: wrap;
+  display: flex;
+  gap: 30px;
+  width: 50vh;
+  margin-top: 20px;
+}
+
+.pokelist__card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.pokelist__pokemons-status {
+  padding-top: 20px;
+  font-size: 20px;
+}

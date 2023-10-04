@@ -1,0 +1,21 @@
+.pokecenterScreen {
+  background-image: url(../../../assets/img/background.-pokecenter-img.jpeg);
+  background-position: center;
+  background-size: cover;
+  min-height: 100vh;
+}
+.pokecenterScreen__content {
+  display: flex;
+  justify-content: space-around;
+}
+.pokecenterScreen__header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.pokecenterScreen__tittle {
+  font-size: 40px;
+  flex-grow: 2;
+  padding-right: 250px;
+}

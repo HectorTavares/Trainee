@@ -1,0 +1,14 @@
+.button-menu {
+  width: 200px;
+  height: 100px;
+  border-radius: 20px;
+  background-color: #ffa8ff;
+
+}
+.button-menu:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+  -webkit-box-shadow: 9px 7px 5px rgba(50, 50, 50, 0.77);
+  -moz-box-shadow: 9px 7px 5px rgba(50, 50, 50, 0.77);
+  box-shadow: 9px 7px 5px rgba(50, 50, 50, 0.77);
+}

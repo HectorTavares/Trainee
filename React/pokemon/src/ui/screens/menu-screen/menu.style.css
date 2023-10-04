@@ -1,0 +1,16 @@
+.menuScreen__pokedex-icon {
+  width: 100%;
+}
+
+.menuScreen__content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  height: 100vh;
+  background-color: rgb(93, 100, 105);
+  background-image: url(../../../assets/img/background-menu.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}

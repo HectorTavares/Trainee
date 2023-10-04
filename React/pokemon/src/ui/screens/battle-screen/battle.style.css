@@ -1,0 +1,79 @@
+.battleScreen {
+  min-height: 100vh;
+  background-color: darkgrey;
+  padding-right: 20px;
+  padding: 20px;
+}
+
+.battleScreen__header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.battleScreen__title {
+  flex-grow: 1;
+  margin-right: 150px;
+}
+
+.battleScreen__myPokemons {
+  overflow: auto;
+    height: 130px;
+    display: flex;
+    flex-wrap: wrap;
+    min-height: 65vh;
+    width: 250px;
+    margin: 20px;
+    gap: 40px 5px;
+    padding: 5px;
+    place-content: flex-start;
+}
+
+.battleScreen__myPokemons:hover {
+  overflow-x: hidden;
+}
+
+.battleScreen__options {
+  display: flex;
+  flex-direction: column;
+  height: 80vh;
+  align-items: center;
+  width: 250px;
+}
+
+.battleScreen__content {
+  display: flex;
+  flex-wrap: wrap;
+}
+.battleScreen__battle {
+  width: 860px;
+  height: 560px;
+  border-radius: 2%;
+  border: 2px solid black;
+  margin: 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url(../../../assets/img/background-battle.png);
+  background-position: center;
+  background-size: cover;
+}
+
+.battleScreen__title {
+  font-size: 50px;
+  text-align: center;
+}
+
+.battleScreen__findEnemy {
+  width: 200px;
+  height: 50px;
+  border-radius: 25px;
+}
+.battleScreen__findEnemy:hover {
+  cursor: pointer;
+}
+.battleScreen__findEnemy:disabled {
+  cursor: not-allowed;
+  filter: grayscale(1);
+  transform: scale(1);
+}

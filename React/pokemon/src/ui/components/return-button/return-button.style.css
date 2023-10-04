@@ -1,0 +1,18 @@
+.return-button {
+  height: 100px;
+  width: 100px;
+  margin-left: 50px;
+  border-radius: 25%;
+  background-image: url(../../../assets/img/return-img.png);
+  background-position: center;
+  background-size: cover;
+  background-color: rgba(209, 7, 7, 0);
+  border: none;
+}
+.return-button:hover {
+  cursor: pointer;
+}
+.return-button:disabled {
+  cursor: not-allowed;
+  filter: grayscale(1);
+}

@@ -1,0 +1,38 @@
+.pokemonCard {
+  width: 310px;
+  height: 350px;
+}
+.pokemonCard__button:hover {
+  cursor: pointer;
+  transform: scale(1.05);
+}
+.pokemonCard__button {
+  border-radius: 10px;
+  width: 310px;
+  height: 350px;
+  background-color: rgba(175, 171, 171, 0.432);
+  border: 1px rgba(0, 0, 0, 0.5) solid;
+}
+.pokemonCard__image {
+  height: 80%;
+}
+
+.pokemonCard__button:disabled {
+  cursor: not-allowed;
+  filter: grayscale(1);
+  transform: scale(1);
+}
+
+.pokemonCard__button.small {
+  width: 100px;
+  height: 100px;
+}
+
+h2.small {
+  font-size: 15px;
+}
+
+
+.choosed{
+  background-color: rgba(255, 0, 0, 0.233);
+}

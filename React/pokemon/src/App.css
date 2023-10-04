@@ -1,0 +1,49 @@
+@font-face {
+  font-family: pokemon;
+  src: url(/src/assets/fonts/pkm-font.otf);
+}
+* {
+  box-sizing: border-box;
+  margin: 0 auto;
+  font-family: pokemon;
+  letter-spacing: 3px;
+  text-shadow: 1px 1px 0 rgb(0, 100, 179), -1px 1px 0 rgb(0, 100, 179), 1px -1px 0 rgb(0, 100, 179),
+    -1px -1px 0 rgb(0, 100, 179), 0px 1px 0 rgb(0, 100, 179), 0px -1px 0 rgb(0, 100, 179),
+    -1px 0px 0 rgb(0, 100, 179), 1px 0px 0 rgb(0, 100, 179), 2px 2px 0 rgb(0, 100, 179),
+    -2px 2px 0 rgb(0, 100, 179), 2px -2px 0 rgb(0, 100, 179), -2px -2px 0 rgb(0, 100, 179),
+    0px 2px 0 rgb(0, 100, 179), 0px -2px 0 rgb(0, 100, 179), -2px 0px 0 rgb(0, 100, 179),
+    2px 0px 0 rgb(0, 100, 179), 1px 2px 0 rgb(0, 100, 179), -1px 2px 0 rgb(0, 100, 179),
+    1px -2px 0 rgb(0, 100, 179), -1px -2px 0 rgb(0, 100, 179), 2px 1px 0 rgb(0, 100, 179),
+    -2px 1px 0 rgb(0, 100, 179), 2px -1px 0 rgb(0, 100, 179), -2px -1px 0 rgb(0, 100, 179);
+  color: rgb(255, 204, 0);
+}
+
+
+
+input {
+  text-shadow: none;
+  color: black;
+}
+
+
+/* width */
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: rgba(169, 169, 169, 0);
+  border-radius: 5px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 5px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}

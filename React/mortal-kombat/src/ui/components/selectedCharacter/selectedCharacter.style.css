@@ -1,0 +1,27 @@
+.selectedCharacter {
+  width: 400px;
+  height: 600px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 100px;
+}
+.selectedCharacter__name {
+  font-size: 35px;
+}
+.selectedCharacter__img {
+  width: 150px;
+  height: 300px;
+}
+.selectedCharacter__button {
+  margin-top: 30px;
+  width: 100px;
+  height: 35px;
+  border: 4px solid black;
+  background-color: rgb(255, 217, 0);
+  color: black;
+}
+
+.selectedCharacter__button:hover {
+  cursor: pointer;
+}

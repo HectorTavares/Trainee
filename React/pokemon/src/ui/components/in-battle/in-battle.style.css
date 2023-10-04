@@ -1,0 +1,33 @@
+.in-battle__enemyPokemon {
+  margin: 30px;
+}
+.in-battle__myPokemon {
+  margin: 30px;
+}
+.in-battle__abilities-buttons {
+  display: flex;
+  flex-direction: column;
+}
+
+.in-battle_buttons > button {
+  width: 400px;
+  height: 250px;
+}
+.in-battle {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+  height: 100%;
+  border-radius: 12px;
+  border: 1px solid black;
+}
+.in-battle__feedback {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 30px;
+}

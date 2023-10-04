@@ -1,0 +1,38 @@
+.pokemonInfoScreen {
+  background-color: rgb(209, 7, 7);
+  min-height: 100vh;
+}
+.pokemonInfoScreen_content {
+  display: flex;
+  border: 2px solid rgba(17, 17, 17, 0.596);
+  margin: 0px 50px;
+  padding: 30px;
+  border-radius: 10px;
+  background-color: rgb(230, 230, 230);
+  height: 80vh;
+}
+.pokemonInfoScreen__form {
+  display: flex;
+}
+.pokemonInfoScreen__infortation {
+  margin: 10px;
+  list-style: none;
+}
+
+.pokemonInfoScreen__informations {
+  border-radius: 5px;
+  background-color: gray;
+  border: black solid 1px;
+  padding: 20px;
+}
+.pokemonInfoScreen__banner {
+  display: flex;
+  flex-direction: column;
+}
+.pokemonInfoScreen__button {
+  background-image: url(../../../assets/img/set-nick-img.png);
+  background-position: center;
+  background-size: cover;
+  margin-left: 5px;
+  border-radius: 5px;
+}

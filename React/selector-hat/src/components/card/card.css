@@ -1,0 +1,56 @@
+@font-face {
+  font-family: "harry-potter";
+  src: url("/src/fonts/HARRYP__.TTF");
+}
+
+.table {
+  width: 475px;
+  height: 250px;
+  border: 1px solid brown;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+}
+
+.title {
+  font-family: harry-potter;
+  color: white;
+  font-size: 35px;
+}
+.table-header {
+  border: 1px solid brown;
+  display: flex;
+  justify-content: center;
+  height: 50px;
+  flex-grow: 1;
+  align-items: center;
+  justify-content: center;
+}
+
+.header-red {
+  background-color: rgb(179, 43, 43);
+}
+
+.header-green {
+  background-color: rgb(62, 122, 62);
+}
+
+.header-yellow {
+  background-color: rgb(218, 179, 7);
+}
+
+.header-blue {
+  background-color: rgb(37, 108, 202);
+}
+
+.table-lines {
+  height: 80%;
+  overflow-y: scroll;
+}
+.lines {
+  background-color: rgb(255, 255, 255);
+  border: 1px solid brown;
+  text-transform: capitalize;
+  color: rgb(90, 42, 36);
+  padding-left: 40px;
+}

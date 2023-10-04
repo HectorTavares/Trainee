@@ -1,0 +1,13 @@
+.app {
+  background-image: url('https://images-ext-1.discordapp.net/external/YpDapcNDj5JvcsFtrVhEkEGq4oSxKRrzIXkb01foftA/https/i.imgur.com/SMZPMn6.png');
+  background-size: cover;
+  background-position: center;
+  height: 125vh;
+}
+.app__header {
+  display: flex;
+  justify-content: center;
+}
+.app__logo {
+  height: 120px;
+}

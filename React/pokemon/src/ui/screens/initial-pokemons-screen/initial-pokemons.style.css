@@ -1,0 +1,28 @@
+.initialPokemonsScreen {
+  display: flex;
+  height: 100vh;
+  flex-direction: column;
+  justify-content: center;
+  background-image: url('/src/assets/img/background.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+.initialPokemonsScreen__content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  width: 100%;
+}
+.initialPokemonsScreen__title {
+  margin-bottom: 100px;
+  font-size: 50px;
+}
+
+h2 {
+  font-size: 30px;
+}
+
+.initialPokemonsScreen__content > .pokemonCard {
+  margin: 20px;
+}

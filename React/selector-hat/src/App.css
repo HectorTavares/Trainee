@@ -1,0 +1,48 @@
+@font-face {
+  font-family: "harry-potter";
+  src: url("../src/fonts/HARRYP__.TTF");
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+.app {
+  background-color: rgb(29, 12, 43);
+}
+
+h1 {
+  font-family: harry-potter;
+  color: rgb(255, 255, 255);
+  font-size: 70px;
+}
+
+.content {
+  margin-top: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px 30px;
+}
+
+.button {
+  background-image: url("./img/sorting-hat-img.png");
+
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background-size: cover;
+  background-position: center;
+  background-color: rgb(107, 62, 231);
+}
+.div-button {
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+}
