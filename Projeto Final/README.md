@@ -141,7 +141,7 @@ Para adquirir o Token, é preciso acessar o LocalStorage do navegador quando Log
 
 O Header deve ser passado como "authorization" e o token deve ser passado como "Bearer {token}".
 
-Para qualquer problema, dúvida ou qualquer necessidade de contato, estamos disponíveis pelo nosso E-mail ou Telefone:
+Para qualquer problema, dúvida ou qualquer necessidade de contato, estamos disponíveis pelo nosso Linkedin ou Telefone:
 
 - [Henrique Bidarte](https://www.linkedin.com/in/henrique-bidarte-massuquetti-b89006210/) - (51) 999746-2456
 - Felipe Bergamo - (51) 99774-9330
