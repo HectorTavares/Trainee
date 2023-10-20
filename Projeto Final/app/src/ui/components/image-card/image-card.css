@@ -1,0 +1,25 @@
+.image-card_main {
+  min-height: 130px;
+  min-width: 130px;
+  display: flex;
+  align-items: center;
+}
+
+.image-card_image {
+  height: 120px;
+  width: 120px;
+  object-fit: cover;
+  border-radius: 5px;
+  box-shadow: 1px 1px 1px black;
+}
+
+.image-card_button {
+  background: none;
+  border: none;
+  transition: 350ms;
+}
+
+.image-card_button:hover {
+  cursor: pointer;
+  filter: grayscale();
+}

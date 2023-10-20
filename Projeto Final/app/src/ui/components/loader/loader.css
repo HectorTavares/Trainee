@@ -1,0 +1,56 @@
+.tiny{
+  border: 2px solid #f3f3f3; 
+  border-top: 2px solid #4e3bc8; 
+  border-radius: 50%;
+  width: 15px;
+  height: 15px;
+  animation: tiny-spin 1.5s linear infinite;
+}
+.small{
+    border: 4px solid #f3f3f3; 
+    border-top: 4px solid #4e3bc8; 
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    animation: small-spin 1.5s linear infinite;
+}
+.medium{
+    border: 8px solid #f3f3f3; 
+    border-top: 8px solid #4e3bc8; 
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    animation: medium-spin 1.5s linear infinite;
+}
+.big{
+    border: 16px solid #f3f3f3; 
+    border-top: 16px solid #4e3bc8; 
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+    animation: big-spin 1.5s linear infinite;
+}
+  @keyframes tiny-spin {
+    0% { transform: rotate(0deg); }
+    50% {border-top: 2px solid #b23e89}
+    100% { transform: rotate(360deg); }
+  }
+@keyframes small-spin {
+    0% { transform: rotate(0deg); }
+    50% {border-top: 4px solid #b23e89}
+    100% { transform: rotate(360deg); }
+  }
+
+  @keyframes medium-spin {
+    0% { transform: rotate(0deg); }
+    50% {border-top: 8px solid #b23e89}
+    100% { transform: rotate(360deg); }
+  }
+
+  @keyframes big-spin {
+    0% { transform: rotate(0deg); }
+    50% {border-top: 16px solid #b23e89}
+    100% { transform: rotate(360deg); }
+  }
+  
+ 

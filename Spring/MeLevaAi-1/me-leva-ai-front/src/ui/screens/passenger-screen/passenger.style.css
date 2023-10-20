@@ -1,0 +1,43 @@
+.passengerscreen {
+  height: 100vh;
+  width: 100vw;
+  background-color: #979aaf;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  padding: 20px 10px;
+}
+
+.div--container--passenger {
+  height: 100%;
+  width: 40%;
+  background-color: #585c71;
+  margin: 10px;
+  border-radius: 30px;
+  padding: 30px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.passengerscreen--race {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+
+.tempo--motorista {
+  font-size: 18px;
+}
+
+.inicia--corrida {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}

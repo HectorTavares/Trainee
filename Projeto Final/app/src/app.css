@@ -1,0 +1,36 @@
+.App {
+  text-align: center;
+}
+
+::-webkit-scrollbar {
+  width: 7px;
+  height: 7px;
+}
+
+::-webkit-scrollbar-thumb {
+  box-shadow: inset 0 0 3px rgba(0, 0, 0, 0.541);
+  border-radius: 50px;
+}
+
+textarea {
+  resize: none;
+}
+
+.monitor {
+  background-color: #b23e89;
+}
+
+.user {
+  background-color: #4e3bc8;
+}
+
+.modal {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.modal_image {
+  height: 70vh;
+}

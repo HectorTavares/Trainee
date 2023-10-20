@@ -1,0 +1,23 @@
+.driverRegisterScreen__content {
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+  height: 100%;
+  width: 40%;
+  border-radius: 20px;
+  background-color: #171a21;
+  padding: 20px;
+  color: #979aaf;
+}
+
+.driverRegisterScreen {
+  background-color: #979aaf;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 50px;
+}
+.passengerRegisterScreen__button {
+  align-self: center;
+}

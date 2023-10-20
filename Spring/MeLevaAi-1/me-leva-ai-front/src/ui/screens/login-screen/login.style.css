@@ -1,0 +1,58 @@
+.loginScreen {
+  height: 100vh;
+  background-color: #979aaf;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.loginScreen__content {
+  padding: 20px;
+  width: 400px;
+  height: 500px;
+  background-color: #171a21;
+  border-radius: 30px;
+  display: flex;
+
+  align-items: center;
+  flex-direction: column;
+}
+
+.loginScreen__form {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  height: 90%;
+  justify-content: space-around;
+}
+
+.loginScreen__input {
+  margin: 10px;
+}
+.loginScreen__button {
+  background-color: #979aaf;
+  height: 30px;
+  width: 160px;
+  border-radius: 20px;
+  color: #171a21;
+  border: none;
+}
+
+.loginScreen__button:hover {
+  transform: scale(1.02);
+  cursor: pointer;
+}
+
+.loginScreen__label {
+  color: #979aaf;
+}
+.loginScreen__tittle {
+  color: #979aaf;
+}
+.loginScreen__error {
+  height: 10%;
+}
+.loginScreen__error-msg {
+  color: red;
+  font-size: 20px;
+}

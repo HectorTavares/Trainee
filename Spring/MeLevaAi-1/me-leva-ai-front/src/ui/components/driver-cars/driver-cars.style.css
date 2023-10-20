@@ -1,0 +1,51 @@
+.drivercars--ul {
+  list-style: none;
+  height: 100%;
+  width: 100%;
+
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+
+  overflow: auto;
+
+  padding: 10px;
+}
+
+.drivercars--li {
+  display: flex;
+  border-radius: 20px;
+  justify-content: space-around;
+  align-items: center;
+  padding: 20px;
+
+  font-size: 13px;
+}
+
+.drivercars--img {
+  height: 70px;
+  width: 70px;
+}
+
+.drivercars--infos {
+  display: flex;
+  flex-direction: column;
+}
+
+.BRANCO {
+  background-color: white;
+}
+
+.PRETO {
+  background-color: black;
+  color: white;
+}
+
+.PRATA {
+  background-color: silver;
+}
+
+.drivercars {
+  height: 40px;
+  width: 40px;
+}

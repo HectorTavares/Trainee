@@ -1,0 +1,7 @@
+export { HomeScreen } from './home-screen/home.screen'
+export { LoginScreen } from './login-screen/login.screen'
+export { PassengerRegisterScreen } from './passenger-register-screen/passenger-register.screen'
+export { DriverRegisterScreen } from './driver-register-screen/driver-register.screen'
+export { DriverScreen } from './driver-screen/driver.screen'
+export { MenuScreen } from './menu-screen/menu.screen'
+export { PassengerScreen } from './passenger-screen/passenger.screen'

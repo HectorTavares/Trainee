@@ -1,0 +1,66 @@
+.passengerRegisterScreen {
+  background-color: #979aaf;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 50px;
+}
+
+.passengerRegisterScreen__content {
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+  height: 100%;
+  width: 40%;
+  border-radius: 20px;
+  background-color: #171a21;
+  padding: 20px;
+}
+.passengerRegisterScreen__form {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.passengerRegisterScreen__label {
+  color: #979aaf;
+  margin: 10px;
+}
+.passengerRegisterScreen__tittle {
+  color: #979aaf;
+}
+.passengerRegisterScreen__input {
+  min-width: 100%;
+  max-width: 100%;
+  margin: 10px;
+}
+
+.passengerRegisterScreen__error {
+  height: 30px;
+  align-self: center;
+}
+.passengerRegisterScreen__button {
+  align-self: center;
+}
+
+.passengerRegisterScreen__error-msg {
+  color: red;
+  font-size: 20px;
+}
+
+.color1 {
+  color: #000000;
+}
+.color2 {
+  color: #171a21;
+}
+.color3 {
+  color: #585c71;
+}
+.color4 {
+  color: #585c71;
+}
+.color5 {
+  color: #979aaf;
+}

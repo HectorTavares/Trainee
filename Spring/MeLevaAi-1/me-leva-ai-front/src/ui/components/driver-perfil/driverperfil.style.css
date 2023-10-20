@@ -1,0 +1,25 @@
+.driverperfil {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+
+  height: 100%;
+  width: 100%;
+}
+.driverperfil--img {
+  height: 80px;
+  width: 80px;
+}
+.driverperfil--cnh {
+  height: auto;
+  width: auto;
+  border-radius: 30px;
+  background-color: #171a21a2;
+  padding: 20px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}

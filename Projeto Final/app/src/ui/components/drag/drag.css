@@ -1,0 +1,31 @@
+.posting_drag {
+  width: 25vw;
+  height: 10vh;
+  cursor: pointer;
+  color: #989898;
+  border: dashed 2px #989898;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.posting_drag-message {
+  text-align: center;
+}
+
+.reply-form_drag {
+  width: 20vw;
+  height: 20vh;
+  cursor: pointer;
+  color: #989898;
+  border: dashed 2px #989898;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.reply_drag-message {
+  text-align: center;
+}

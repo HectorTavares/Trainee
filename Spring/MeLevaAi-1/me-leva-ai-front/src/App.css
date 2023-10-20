@@ -1,0 +1,32 @@
+a {
+  color: blue;
+}
+::-webkit-scrollbar {
+  width: 7px;
+}
+
+::-webkit-scrollbar-thumb {
+  box-shadow: inset 0 0 3px rgba(0, 0, 0, 0.541);
+  border-radius: 50px;
+}
+
+.color1 {
+  color: #000000;
+}
+.color2 {
+  color: #171a21;
+}
+.color3 {
+  color: #585c71;
+}
+.color4 {
+  color: #585c71;
+}
+.color5 {
+  color: #979aaf;
+}
+
+@font-face {
+  font-family: 'Montserrat';
+  src: url(./assets/Montserrat-Thin.ttf);
+}

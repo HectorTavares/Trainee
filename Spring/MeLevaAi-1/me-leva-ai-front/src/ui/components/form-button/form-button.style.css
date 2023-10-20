@@ -1,0 +1,13 @@
+.formButton {
+  background-color: #979aaf;
+  height: 30px;
+  width: 160px;
+  border-radius: 20px;
+  color: #171a21;
+  border: none;
+}
+
+.formButton:hover {
+  cursor: pointer;
+  transform: scale(1.02);
+}
