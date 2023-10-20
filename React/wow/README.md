@@ -1,22 +1,35 @@
-## Projeto feito em grupo
+# Projeto Inspirado em World of Warcraft
+
+## Sobre o Projeto
+
+Este projeto foi desenvolvido em grupo por:
 
 - [Gabriele Peschke Baum](https://www.linkedin.com/in/gabriele-peschke-baum-7aa065198/)
 - [Pedro Henrique Scaravonatto Zanardi](https://www.linkedin.com/in/pedro-henrique-scaravonatto-zanardi-774373184/)
-- [Héctor Tavares da silva](https://www.linkedin.com/in/hector-tavares/)
+- [Héctor Tavares da Silva](https://www.linkedin.com/in/hector-tavares/)
+
+O projeto é inspirado no famoso jogo World of Warcraft (WOW) e tem como objetivo colocar em prática os conhecimentos adquiridos, bem como explorar tecnologias relevantes. As principais funcionalidades do projeto incluem:
+
+- **Autenticação**
+# ![image](https://github.com/HectorTavares/Trainee/assets/63106769/2bf0b7aa-5e8c-406e-9cbc-c831bb23765e)
 
 
-Projeto com temática de World of Warcraft com intuito de colocar em pratica os assuntos e téncologias aprendidada, onde tinhamos funcionalidades como:
+- **Seleção e Criação de Personagem**
+# ![image](https://github.com/HectorTavares/Trainee/assets/63106769/f0bcf3dd-c30f-46e2-b371-baa65c6e01fb)
+# ![image](https://github.com/HectorTavares/Trainee/assets/63106769/c121773a-838c-4b82-91e6-80ede2f8ce62)
 
-- Autenticação
-    ![Login](image.png)
-- Seleção e Criação de personagem
-    ![Alt text](image-1.png)
-    ![Alt text](image-2.png)
-- Chat
-    ![Alt text](image-3.png)
-- Loja
-    ![Alt text](image-5.png)
-- Batalha
-    ![Alt text](image-4.png)
-- Missões
-    ![Alt text](image-6.png)
+
+- **Chat**
+# ![image](https://github.com/HectorTavares/Trainee/assets/63106769/f733960a-851c-455c-ad68-4bd06bb59d29)
+
+
+- **Loja**
+# ![image](https://github.com/HectorTavares/Trainee/assets/63106769/3619c1b6-339c-47de-b5fb-9623ee4d974f)
+
+
+- **Batalha**
+# ![image](https://github.com/HectorTavares/Trainee/assets/63106769/9481fc1c-a394-4eb8-a255-cb12b00d6831)
+
+
+- **Missões**
+# ![image](https://github.com/HectorTavares/Trainee/assets/63106769/b8958aac-6631-4d0f-8f51-5a6394fc5be2)
