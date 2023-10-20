@@ -8,6 +8,5 @@ Dividido entre as Técnologias que estava estudando no momento do desenvolviment
 - Orientação a Objetos (Java)
 - React
 - Spring
-
-
-Tem a pasta de conteudos onde fica alguns jsons com conteudos que são consumidos em alguns dos projetos.
+- Projeto Final (Todas as Técnologias)
+- Conteudo (Conteúdos que foram consumidos em projetos estáticos)
