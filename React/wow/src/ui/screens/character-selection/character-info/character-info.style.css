@@ -1,0 +1,28 @@
+.characterInfo__Info {
+  list-style: none;
+
+  margin: 0px;
+}
+.characterInfo__paragraph {
+  margin: 5px;
+  color: rgb(255, 255, 255);
+  font-size: 20px;
+  letter-spacing: 1px;
+  text-shadow: -1px -1px 0px rgb(0, 0, 0), -1px 1px 0px rgb(0, 0, 0), 1px -1px 0px rgb(0, 0, 0),
+    1px 0px 0px rgb(0, 0, 0);
+}
+
+.characterInfo__list {
+  flex-direction: column;
+  display: flex;
+  align-items: flex-start;
+  margin: 0px;
+}
+
+.characterInfo__title {
+  font-size: 30px;
+  letter-spacing: 1px;
+  color: rgb(255, 255, 255);
+  text-shadow: -1px -1px 0px rgb(0, 0, 0), -1px 1px 0px rgb(0, 0, 0), 1px -1px 0px rgb(0, 0, 0),
+    1px 0px 0px rgb(0, 0, 0);
+}

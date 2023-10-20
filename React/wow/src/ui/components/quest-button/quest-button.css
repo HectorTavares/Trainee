@@ -1,0 +1,18 @@
+.quest-button {
+  width: 150px;
+  height: 35px;
+  margin-top: 30px;
+  background-color: #1a1a1ad0;
+  border: none;
+  border-radius: 5px;
+  justify-self: flex-end;
+
+  color: #ffffff;
+  font-size: 15px;
+  transition: background-color 0.3s linear;
+}
+
+.quest-button:hover {
+  cursor: pointer;
+  background-color: rgba(59, 59, 59, 0.6);
+}

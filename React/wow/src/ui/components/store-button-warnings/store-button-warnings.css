@@ -1,0 +1,19 @@
+.store-button-warning {
+  width: 90px;
+  height: 25px;
+  margin: 20px;
+  border: none;
+
+  background-image: url('../../../assets/img/store-item-bg.jpg');
+  background-size: cover;
+  background-color: #ffffff;
+
+  color: #ffffff;
+
+  box-shadow: 5px 5px 5px 0px #000000, 5px 5px 15px 5px rgba(73, 255, 18, 0);
+}
+.store-button-warning:hover {
+  cursor: pointer;
+
+  box-shadow: 5px 5px 5px 0px #000000, inset 4px 4px 15px 0px #000000, 5px 5px 15px 5px rgba(73, 255, 18, 0);
+}

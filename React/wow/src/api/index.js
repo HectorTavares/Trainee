@@ -1,0 +1,1 @@
+export { useWowApi } from './wow/use-wow-api'

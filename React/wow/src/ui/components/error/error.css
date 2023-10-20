@@ -1,0 +1,33 @@
+.error-container {
+  width: 100%;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.5);
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+.error-content {
+  width: 500px;
+  height: 100px;
+  background-color: rgba(0, 0, 0, 0.5);
+  border: 6px solid #570102;
+  border-radius: 5px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px, inset 4px 4px 15px 0px #000000;
+
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  margin-left: -250px;
+  margin-top: -100px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.error-content > span {
+  color: #958212;
+  font-size: 22px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}

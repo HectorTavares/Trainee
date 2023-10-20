@@ -1,0 +1,33 @@
+.quest-card__button {
+  width: 100%;
+  height: 40px;
+  background-color: rgba(0, 0, 0, 0.6);
+  color: #ffffff;
+  border: none;
+  border-bottom: 1px solid #333333;
+  transition: background-color 0.3s linear;
+
+  display: flex;
+  align-items: center;
+}
+
+.quest-card__button-selected {
+  background-color: #95811285;
+}
+
+.quest-card__button-not-selected:hover {
+  cursor: pointer;
+  background-color: rgba(59, 59, 59, 0.6);
+}
+
+.quest-card__button-not-selected:disabled {
+  background-color: rgba(112, 112, 112, 0.6);
+}
+
+.quest-card__button:disabled {
+  cursor: not-allowed;
+}
+
+.quest-card__button > span {
+  margin-left: 20px;
+}

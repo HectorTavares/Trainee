@@ -1,0 +1,29 @@
+@font-face {
+  font-family: wow;
+  src: url(../../../assets/fonts/LifeCraft_Font.ttf);
+}
+
+.battleCard {
+  font-family: wow;
+  width: 200px;
+  height: 100px;
+  background-color: rgba(128, 128, 128, 0.849);
+  border-radius: 5px;
+  border: gray;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.battleCard__info {
+  letter-spacing: 1px;
+  color: rgb(255, 255, 255);
+  text-shadow: -1px -1px 0px rgb(0, 0, 0), -1px 1px 0px rgb(0, 0, 0), 1px -1px 0px rgb(0, 0, 0),
+    1px 0px 0px rgb(0, 0, 0);
+  margin: 3px;
+}
+
+.battleCard:hover {
+  border: 2px solid rgb(255, 255, 0);
+  transform: scale(1.02);
+}

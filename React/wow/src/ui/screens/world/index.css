@@ -1,0 +1,115 @@
+.img-logo-world {
+  width: 400px;
+}
+
+.world-of-react-screen {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  height: 100vh;
+  background: url('../../../assets/img/background-world.jpg');
+  background-size: cover;
+  align-items: center;
+  color: wheat;
+}
+
+.btn-options {
+  font-size: 40px;
+  font-family: wow;
+  border: none;
+  margin: 5px;
+  cursor: pointer;
+}
+
+.console-container {
+  background-color: rgba(0, 0, 0, 0.8);
+  height: 300px;
+}
+
+.btn-options:hover {
+  transform: scale(1.02);
+}
+
+.chat-container {
+  background-color: rgba(0, 0, 0, 0.4);
+  width: 500px;
+  position: fixed;
+  bottom: 0;
+  overflow: scroll;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  left: 0;
+  padding-right: 0px;
+  padding-right: 0;
+}
+
+.chat-container::-webkit-scrollbar {
+  width: 0px;
+}
+
+.chat-container:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.input-chat-container {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 500px;
+  border: none;
+  background-color: rgba(0, 0, 0, 0.9);
+  color: white;
+}
+
+.content-chat {
+  margin-top: 5px;
+  text-align: initial;
+  display: none;
+}
+
+.chat-container:hover .content-chat {
+  height: 300px;
+  display: block;
+}
+
+.green {
+  color: green;
+}
+
+.error {
+  color: red;
+}
+
+.achieves {
+  color: blue;
+}
+
+.title-chat {
+  background-color: rgba(0, 0, 0, 0.5);
+  margin-top: 0;
+  padding: 5px;
+  text-shadow: 2px 2px black;
+}
+
+.title-chat:hover{
+  background-color: rgba(0, 0, 0, 1);
+}
+
+.title-world {
+  text-shadow: 2px 2px black;
+}
+
+.btn-options {
+  color: wheat;
+  background: #4b5764;
+  border: 3px solid black;
+  text-shadow: 2px 2px black;
+}
+
+.back-char-screen {
+  background-color: rgb(117, 3, 3);
+  position: fixed;
+  left: 10px;
+  top: 20px;
+  font-size: 25px;
+}

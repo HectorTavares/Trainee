@@ -1,0 +1,29 @@
+.container-pai {
+  position: relative;
+  width: 300px;
+  height: 150px;
+  margin: 0;
+}
+
+.container-filho {
+  position: absolute;
+  top: 0;
+  left: 25px;
+}
+
+.format-img-char {
+  width: 250px;
+  border-radius: 50%;
+}
+
+.card-holder {
+  display: flex;
+  justify-content: center;
+}
+
+.atributos-card {
+  position: absolute;
+  left: 27%;
+  top: 250px;
+  color: wheat;
+}

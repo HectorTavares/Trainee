@@ -1,0 +1,36 @@
+.battleScreen {
+  background-image: url(../../../assets/img/background-battle.jpg);
+  height: 100vh;
+  background-position: center;
+  background-size: cover;
+  padding: 0px 20px 20px 20px;
+}
+.battleScreen__header {
+  margin-bottom: 10px;
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
+}
+.battleScreen__content {
+  gap: 10px;
+  padding: 15px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  background-color: #00000080;
+  border-radius: 10px;
+  border: 1px solid gray;
+  height: 85vh;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+.battleScreen__header-tittle {
+  color: rgb(255, 255, 255);
+  letter-spacing: 1px;
+  text-shadow: -1px -1px 0px rgb(0, 0, 0), -1px 1px 0px rgb(0, 0, 0), 1px -1px 0px rgb(0, 0, 0),
+    1px 0px 0px rgb(0, 0, 0);
+}
+.battleScreen__text {
+  margin: 10px;
+  text-decoration: none;
+}

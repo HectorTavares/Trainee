@@ -1,0 +1,19 @@
+.loader {
+  width: 60px;
+  height: 60px;
+  border: 7px solid #958212;
+  border-top: 7px solid #000000;
+  border-radius: 50%;
+  margin: 0 auto;
+  transform: rotate(45deg);
+  animation: rotateLoader 0.7s infinite;
+}
+
+@keyframes rotateLoader {
+  0% {
+    transform: rotate(45deg);
+  }
+  100% {
+    transform: rotate(405deg);
+  }
+}

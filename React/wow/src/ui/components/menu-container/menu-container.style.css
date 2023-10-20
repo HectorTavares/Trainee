@@ -1,0 +1,22 @@
+.menu {
+  display: flex;
+  background-color: rgba(0, 0, 0, 0.651);
+  flex-direction: column;
+  box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.774);
+  border: gray 2px solid;
+  border-radius: 10px;
+  height: 79vh;
+  padding: 5px 0px;
+}
+.scroll {
+  overflow-y: scroll;
+}
+
+::-webkit-scrollbar {
+  width: 7px;
+}
+
+::-webkit-scrollbar-thumb {
+  box-shadow: inset 0 0 3px rgba(0, 0, 0, 0.541);
+  border-radius: 50px;
+}

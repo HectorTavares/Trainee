@@ -1,0 +1,70 @@
+.form-login-screen {
+  position: relative;
+  width: 370px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid black;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: yellow;
+  font-size: 25px;
+}
+
+.login-screen {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+  position: fixed;
+  right: 10%;
+  top: 35%;
+  margin-top: 15px;
+}
+
+.img-logo-login {
+  width: 400px;
+  position: fixed;
+  top: 5%;
+  right: 9%;
+}
+
+.align-with-background {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  height: 100vh;
+  background: url(../../../assets/img/World\ Of\ Warcraft\ Arthas\ HD\ LİVE\ Wallpaper.gif);
+  background-size: cover;
+}
+
+.label-form-login {
+  margin-top: 5px;
+  text-align: left;
+}
+
+.btn-form-login {
+  margin-top: 15px;
+  color: yellow;
+  border: 2px solid yellow;
+  background: black;
+  cursor: pointer;
+  font-family: wow;
+  font-size: 25px;
+  margin-bottom: 15px;
+}
+
+.erro {
+  color: red;
+  background-color: rgba(0, 0, 0, 0.7);
+  margin: 0;
+}
+
+.align-input-pass {
+  margin-right: 15px;
+}
+
+.input-login-screen {
+  background: black;
+  color: yellow;
+}

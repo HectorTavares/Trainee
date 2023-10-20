@@ -1,0 +1,12 @@
+.store-confirmation-box__title {
+  margin-top: 60px;
+  color: #958212;
+  font-size: 20px;
+}
+
+.store-confirmation-box__btns {
+  height: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
