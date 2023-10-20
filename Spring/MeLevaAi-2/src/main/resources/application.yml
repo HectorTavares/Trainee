@@ -11,8 +11,8 @@ spring:
     hibernate:
       ddl-auto: validate
   datasource:
-    username: qqbufkbnlbpokg
-    password: f0a13136c84258b76ffe5e7c794d0f11aade7aaf3c544034f7082ea485d414bf
-    url: jdbc:postgresql://ec2-54-145-188-92.compute-1.amazonaws.com:5432/d4tr5deio5g3o7?currentSchema=public
+    username: xxx
+    password: xxx
+    url: xxx
     driver-class-name: org.postgresql.Driver
-auth-url: https://crescer-api-auth.herokuapp.com/me
+auth-url: xxx
