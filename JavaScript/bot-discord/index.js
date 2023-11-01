@@ -75,4 +75,4 @@ async function comandos(msg) {
   }
 }
 
-client.login('ODg2Mjg0Mjc1MzgzNjg1MjAx.YTzWjQ.gsp4PQCTmTzdbR8SvqDyFcGosxc')
+client.login('xxx')

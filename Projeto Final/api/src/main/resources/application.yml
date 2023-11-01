@@ -1,8 +1,8 @@
 cloud:
   aws:
     credentials:
-      access-key: xxx
-      secret-key: xxx
+      access-key: xxxx
+      secret-key: xxxx
     region:
       static: sa-east-1
     stack:
@@ -27,9 +27,9 @@ spring:
       ddl-auto: validate
       format-sql: true
   datasource:
-    username: xxx
-    password: xxx
-    url: xxx
+    username: xxxx
+    password: xxxx
+    url: xxxx
     driver-class-name: org.postgresql.Driver
   hikari:
     maximum-pool-size: 3
